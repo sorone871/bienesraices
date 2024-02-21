@@ -1,6 +1,14 @@
 .footer{
+    .navegacion{
+        @include tablet {
+            display: flex;
+            justify-content: center;
+            margin-top: .5rem;
+        }
+    }
     background-color: $grisOscuro;
-    padding: calc($separacion / 2) 0 ;
+    padding: .5rem 0 ;
+    margin-bottom: 0;
     .contenido-footer{
         padding-top: calc($separacion / 2);
         
